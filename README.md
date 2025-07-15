@@ -20,13 +20,20 @@ llm keys set groq
 ```
 <paste key here>
 ```
-You can now access the three Mistral hosted models: `groq-llama2` and `groq-mixtral`.
+You can now access the models hosted on Groq, including `groq-mixtral`, `groq-llama3`, `groq-kimi-k2`, and others.
 
 To run a prompt through `groq-mixtral`:
 
 ```bash
 llm -m groq-mixtral 'A sassy name for a pet sasquatch'
 ```
+
+To run a prompt through `groq-kimi-k2`:
+
+```bash
+llm -m groq-kimi-k2 'Explain quantum computing in simple terms'
+```
+
 To start an interactive chat session with `groq-mixtral`:
 ```bash
 llm chat -m groq-mixtral
